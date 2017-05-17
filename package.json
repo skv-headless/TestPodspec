@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "react": "16.0.0-alpha.12",
-    "react-native": "facebook/react-native#280ec6e1ebf5bd607fcb3786ae261e34dfe76adb"
+    "react-native": "facebook/react-native#44955dfa178f9a82bbab7ddc4e3adfde3d0d0083"
   }
 }

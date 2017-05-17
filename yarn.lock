@@ -2362,16 +2362,16 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
-react-devtools-core@^2.1.8:
+react-devtools-core@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-2.1.9.tgz#825e0582b7f8587cbf56bb5ef1ea94d8b158543e"
   dependencies:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native@facebook/react-native#280ec6e1ebf5bd607fcb3786ae261e34dfe76adb:
+react-native@facebook/react-native#44955dfa178f9a82bbab7ddc4e3adfde3d0d0083:
   version "1000.0.0"
-  resolved "https://codeload.github.com/facebook/react-native/tar.gz/280ec6e1ebf5bd607fcb3786ae261e34dfe76adb"
+  resolved "https://codeload.github.com/facebook/react-native/tar.gz/44955dfa178f9a82bbab7ddc4e3adfde3d0d0083"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -2432,7 +2432,7 @@ react-native@facebook/react-native#280ec6e1ebf5bd607fcb3786ae261e34dfe76adb:
     promise "^7.1.1"
     prop-types "^15.5.8"
     react-clone-referenced-element "^1.0.1"
-    react-devtools-core "^2.1.8"
+    react-devtools-core "^2.1.9"
     react-timer-mixin "^0.13.2"
     react-transform-hmr "^1.0.4"
     rebound "^0.0.13"

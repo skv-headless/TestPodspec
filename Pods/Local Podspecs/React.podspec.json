@@ -8,7 +8,7 @@
   "authors": "Facebook",
   "source": {
     "git": "https://github.com/facebook/react-native.git",
-    "commit": "316bb9e8679c947342493c023ffdd348c12ffa49"
+    "commit": "04c53510c926638575403571d85239e61a5a326d"
   },
   "default_subspecs": "Core",
   "requires_arc": true,
