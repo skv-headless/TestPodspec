@@ -1,0 +1,35 @@
+{
+  "name": "GLog",
+  "version": "0.3.4",
+  "license": {
+    "type": "Google",
+    "file": "COPYING"
+  },
+  "homepage": "https://github.com/google/glog",
+  "summary": "Google logging module",
+  "authors": "Google",
+  "prepare_command": "echo '#!/bin/sh' > ./ios-cc.sh\necho 'exec \"$(xcrun -find -sdk iphoneos cc)\" -arch armv7 -isysroot \"$(xcrun -sdk iphoneos --show-sdk-path)\" \"$@\"' >> ./ios-cc.sh\nchmod 755 ./ios-cc.sh\nCC=\"`pwd`\"/ios-cc.sh CXX=\"`pwd`\"/ios-cc.sh ./configure --host arm-apple-darwin",
+  "source": {
+    "git": "https://github.com/google/glog.git",
+    "tag": "v0.3.4"
+  },
+  "module_name": "glog",
+  "source_files": [
+    "src/**/*.h",
+    "src/demangle.cc",
+    "src/logging.cc",
+    "src/raw_logging.cc",
+    "src/signalhandler.cc",
+    "src/symbolize.cc",
+    "src/utilities.cc",
+    "src/vlog_is_on.cc"
+  ],
+  "public_header_files": "src/glog/*.h",
+  "pod_target_xcconfig": {
+    "USE_HEADERMAP": "NO",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/src"
+  },
+  "platforms": {
+    "ios": "8.0"
+  }
+}
